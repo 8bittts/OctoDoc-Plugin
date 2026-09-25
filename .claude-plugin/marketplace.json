@@ -10,7 +10,12 @@
 			"name": "octodoc",
 			"source": "./",
 			"description": "Read, prepare, verify and track signable documents with the OctoDoc command line.",
-			"category": "documents"
+			"category": "documents",
+			"homepage": "https://octodoc.org",
+			"author": {
+				"name": "8LEE",
+				"url": "https://octodoc.org"
+			}
 		}
 	]
 }
