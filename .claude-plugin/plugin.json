@@ -1,0 +1,18 @@
+{
+	"name": "octodoc",
+	"displayName": "OctoDoc",
+	"version": "0.1.0",
+	"description": "Read, prepare, verify and track signable documents with the OctoDoc command line.",
+	"author": {
+		"name": "8LEE",
+		"url": "https://octodoc.org"
+	},
+	"homepage": "https://octodoc.org",
+	"license": "MIT",
+	"keywords": [
+		"pdf",
+		"signature",
+		"documents",
+		"forms"
+	]
+}
