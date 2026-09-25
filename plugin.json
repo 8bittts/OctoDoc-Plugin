@@ -8,6 +8,7 @@
 		"url": "https://octodoc.org"
 	},
 	"homepage": "https://octodoc.org",
+	"repository": "https://github.com/8bittts/OctoDoc-Plugin",
 	"license": "MIT",
 	"keywords": [
 		"pdf",
