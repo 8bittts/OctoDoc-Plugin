@@ -16,7 +16,7 @@
 <p align="center">
   <img alt="Claude Code" src="https://img.shields.io/badge/Claude%20Code-installed%20and%20checked-0A0A0B">
   <img alt="Codex" src="https://img.shields.io/badge/Codex-installed%20and%20checked-0A0A0B">
-  <img alt="Cowork and ChatGPT" src="https://img.shields.io/badge/Cowork%20and%20ChatGPT-same%20bundle-2B3A67">
+  <img alt="Skills only" src="https://img.shields.io/badge/skills%20only-no%20server-2B3A67">
   <img alt="License MIT" src="https://img.shields.io/badge/license-MIT-2B3A67">
 </p>
 
@@ -49,14 +49,14 @@ curl -fsSL https://octodoc.org/install | sh
 
 **2. Add the plugin.**
 
-Claude Code and Cowork:
+Claude Code:
 
 ```bash
 claude plugin marketplace add 8bittts/OctoDoc-Plugin
 claude plugin install octodoc@octodoc
 ```
 
-ChatGPT and Codex:
+Codex:
 
 ```bash
 codex plugin marketplace add 8bittts/OctoDoc-Plugin
