@@ -15,5 +15,13 @@
 		"signature",
 		"documents",
 		"forms"
-	]
+	],
+	"extensions": {
+		"com.openai": {
+			"interface": {
+				"composerIcon": "./assets/icon.png",
+				"logo": "./assets/logo.png"
+			}
+		}
+	}
 }

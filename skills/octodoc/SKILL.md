@@ -84,7 +84,6 @@ It polls until the browser answers or the request expires after ten minutes; rer
 An authorized credential carries every machine scope for 90 days: import, read, query, prepare, approve, send, sign, decline, download, signature appearances, mandates and signing handoffs; binding acts still need attended authorization or a mandate.
 Never report the credential itself.
 In CI, set `OCTODOC_API_KEY` to an operator-issued machine credential and skip login.
-Run `octodoc setup agent` once after authorization so Claude Code and Codex load this skill from one installed copy, and rerun it when the checkout updates the skill.
 Manage credentials at `/profile`.
 
 ## Open and prepare
