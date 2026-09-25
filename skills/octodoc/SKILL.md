@@ -9,6 +9,15 @@ description: >-
   A bearer credential never authorizes a send or signature by itself: binding acts require a transaction-bound attended assertion or an explicit delegation mandate.
 ---
 
+## Before anything else
+
+Every command below is the `octodoc` program on this machine.
+If it is not installed, say so and give the person this line, rather than guessing at another command:
+
+```bash
+curl -fsSL https://octodoc.org/install | sh
+```
+
 # OctoDoc
 
 Run commands from the OctoDoc repository root.
