@@ -19,10 +19,7 @@ curl -fsSL https://octodoc.org/install | sh
 
 # OctoDoc
 
-Run commands from the OctoDoc repository root.
-When this skill is installed globally, read `installation.json` beside it and use its exact `command` prefix and optional `workingDirectory`.
 Use only arguments present in the generated reference.
-The generated `octodoc` form is the source-checkout prefix, while an installed executable's manifest replaces that prefix with its absolute executable path.
 
 ## Boundary
 
