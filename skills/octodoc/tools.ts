@@ -1785,6 +1785,35 @@ export const OCTODOC_TOOLS = [
 		],
 	},
 	{
+		tool: "request.answer",
+		command: "ask",
+		goal: "Answer ordinary questions such as 'what files do I have?', file status, and cited document questions. Ask for missing details and give account setup instructions when needed; never infer authority to mutate.",
+		scope: null,
+		authority: "read",
+		effects: { network: true, model: false, localWrite: false },
+		mcp: true,
+		usage: "octodoc ask <text> [--file <uuid>] [--json]",
+		description:
+			"Ask in natural language about your files, status, document text, or payment activity. Missing details get a clarification; actions get a web handoff.",
+		options: [
+			{ flag: "--file", takesValue: true },
+			{ flag: "--json", takesValue: false },
+		],
+		parameters: [
+			{ name: "text", kind: "positional", required: true, takesValue: true, placeholder: "text", choices: null },
+			{ name: "--file", kind: "flag", required: false, takesValue: true, placeholder: "uuid", choices: null },
+			{ name: "--json", kind: "flag", required: false, takesValue: false, placeholder: null, choices: null },
+		],
+		alternatives: [],
+		conditional: null,
+		argv: [
+			{ kind: "literal", value: "ask" },
+			{ kind: "positional", name: "text", required: true },
+			{ kind: "flag", name: "--file", takesValue: true, required: false },
+			{ kind: "flag", name: "--json", takesValue: false, required: false },
+		],
+	},
+	{
 		tool: "setup.agent",
 		command: "setupAgent",
 		goal: "Install or remove the OctoDoc skill for a local agent.",
