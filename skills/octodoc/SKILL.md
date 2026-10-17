@@ -173,6 +173,7 @@ Explain that the human URL is why the sealed file can carry evidence of the pers
 ## Billing and payments
 
 Run `octodoc billing status` before send-meter or paid-plan work: `sends.remaining` is this month's sends left (`null` is unmetered); at `sendAllowance.state` `low` or `reached`, relay `sendAllowance.notice`.
+No plan has a send ceiling; a `progressive_limit` refusal names when a new workspace can send again, so relay that time.
 Run `octodoc billing catalog` for the sellable Team plan; every product carries `disableCheckout: true`, so purchase completes on Profile.
 Run `octodoc billing manage` when the person must check out, open the billing portal or change plan; present the printed URL if no browser opens.
 Run `octodoc payments report [--period quarter]` for requested, collected, refunded and net payment activity; it needs `payments:read`, so an older credential logs in again.
